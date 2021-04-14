@@ -1,2 +1,2 @@
-# This page is blank!
-This page will indicate any additional assumptions. As we are still thinking about a development scheme, please come back later.
+# Houston we have a problem!
+We are still thinking about a development scheme, so please come back later.
