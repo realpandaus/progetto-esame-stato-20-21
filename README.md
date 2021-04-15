@@ -1,4 +1,4 @@
-#Si ipotizza che: 
+# Si ipotizza che:
 - L'edificio abbia 3 piani.
 - Al primo piano ci sia la portineria e quattro stanze adibite alle visite.
 - Al secondo piano si sviluppi il reparto di chirurgia con cinque camere operatorie.
