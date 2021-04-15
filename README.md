@@ -1,2 +1,12 @@
-# Houston we have a problem!
-We are still thinking about a development scheme, so please come back later.
+Si ipotizza che: 
+- L'edificio abbia 3 piani.
+- Al primo piano ci sia la portineria e quattro stanze adibite alle visite.
+- Al secondo piano si sviluppi il reparto di chirurgia con cinque camere operatorie.
+- Al terzo piano ci siano le stanze di degenza ospedaliera.
+- Ogni piano abbia un router.
+- Le varie connessioni dei tre piani siano gestite da una sala sever.
+- Ogni membro del personale abbia il suo username e la sua password.
+- Ogni persona ricoverata abbia la possibilità di chiamare un membro dell'equipaggio infermieristico tramite un dispositivo fissato accanto al letto.
+- I tre piani siano in grado di comunicare tra loro.
+- Il database sia gestito dalla portineria e quindi dal suo personale.
+- Il collegamento tra le varie sottoreti dovrà avvenire tramite tre switch (uno per ogni piano) e un router.
