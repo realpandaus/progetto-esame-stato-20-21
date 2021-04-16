@@ -11,4 +11,4 @@
 - Il database sia gestito da un team di esperti informatici.
 - Il collegamento tra le varie sottoreti dovrà avvenire tramite tre switch (uno per piano) e un router centrale.
 
-L'ultimo aggiornamento risale al 16/04/2021 alle ore 11:15
+L'ultimo aggiornamento risale al 16/04/2021 alle ore 11:20
