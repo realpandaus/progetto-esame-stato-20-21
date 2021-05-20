@@ -3,14 +3,12 @@
 	//Dichiarazione variabili.
 	$codice_Medico = $_POST["codice_Medico"];
 	$CF = $_POST["CF"];
-	$codice_visita = $_POST["codice_visita"];
 	$ora = $_POST["ora"];
 	$Data_visita = $_POST["Data_visita"];
 	$Pressione_minima = $_POST["Pressione_minima"];
 	$Pressione_massima = $_POST["Pressione_massima"];
 	$Temperatura = $_POST["Temperatura"];
 	$Frequenza_cardiaca = $_POST["Frequenza_cardiaca"];
-	$Periodicità = $_POST["Periodicità"];
 	
 	//Connessione DB.
 	$hostname_db = "localhost";
@@ -33,8 +31,8 @@
 	echo "Accesso al database effettuato correttamente";
 	
 	//Inserimento dati.
-	$sql = "INSERT INTO visita (codice_Medico, CF, codice_visita, ora,Data_visita, Pressione_minima, Pressione_massima, Temperatura, Frequenza_cardiaca)";
-	$sql .= "VALUES ('$codice_Medico', '$CF', '$codice_visita', '$ora','$Data_visita','$Pressione_minima','$Pressione_massima','$Temperatura','$Frequenza_cardiaca');";
+	$sql = "INSERT INTO visita (CF, codice_Medico, ora, Data_visita, Pressione_minima, Pressione_massima, Temperatura, Frequenza_cardiaca)";
+	$sql .= "VALUES ('$CF', '$codice_Medico', '$ora','$Data_visita','$Pressione_minima','$Pressione_massima','$Temperatura','$Frequenza_cardiaca');";
 
 	if(mysqli_query($connection_to_db, $sql))
 	{

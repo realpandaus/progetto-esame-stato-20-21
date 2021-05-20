@@ -19,21 +19,21 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT codice_Medico,passw FROM utente WHERE codice_Medico = '$user' AND passw='$passw';";
+$sql = "SELECT codice_Medico,passw FROM utente WHERE codice_Medico = '$user' AND passw ='$passw';";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0)
 {
     $_SESSION["Active"] = true;
     $_SESSION["Username"] = $user;
-    header("location: Loggato.php");
+    header("location: inserimento_visite.php");
 }
-mysqli_close($conn);
+else
+{
+  header("location: form.php");
+}
 ?>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
